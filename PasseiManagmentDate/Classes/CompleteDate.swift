@@ -25,10 +25,15 @@ public class CompleteDate:DateFormatProtocol {
         return self.formatter.date(from: string)
     }
 
-    public func stringToString(withString string:String) -> String? {
+    public func stringToString(withString string:String,changeReturnType toReturnType:DateFormmatEnum?) -> String? {
         guard let date = formatter.date(from: string) else {
             return nil
         }
+
+        if let toReturnType {
+            self.formatter.dateFormat = toReturnType.rawValue
+        }
+
         return formatter.string(from: date)
     }
 }
