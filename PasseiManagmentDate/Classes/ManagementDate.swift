@@ -21,6 +21,14 @@ public class ManagementDate{
     public var iso8601:any DateFormatProtocol {
         return ISO8601Format(withFormatter: formatter)
     }
+
+    public var weekdayPrefix:any DateFormatProtocol {
+         return WeekdayPrefix(withFormatter: formatter)
+    }
+
+    public var day:any DateFormatProtocol {
+        return Day(withFormatter: formatter)
+    }
     
     public var completeDate:any DateFormatProtocol {
         return CompleteDate(withFormatter: formatter)
