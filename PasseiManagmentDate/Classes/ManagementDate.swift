@@ -7,9 +7,9 @@
 
 import Foundation
 
-public class ManagementDateFacade {
+public class ManagementDate{
     
-    public static var new:ManagementDateFacade = .init()
+    public static var new:ManagementDate = .init()
     private var formatter = DateFormatter()
     
     public var locale:Locale = Locale(identifier: "pt-br")

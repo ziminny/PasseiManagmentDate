@@ -12,6 +12,7 @@ public protocol DateFormatProtocol {
     
     func dateToString(withDate date:Date) -> String?
     func stringToDate(withString string:String) -> Date?
+    func stringToString(withString string:String) -> String?
     
     init(withFormatter formatter:DateFormatter)
 
