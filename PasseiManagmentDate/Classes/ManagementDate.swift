@@ -29,6 +29,10 @@ public class ManagementDate{
     public var day:any DateFormatProtocol {
         return Day(withFormatter: formatter)
     }
+
+    public var hoursAndMinutes:any DateFormatProtocol {
+         return HoursAndMinutes(withFormatter: formatter)
+    }
     
     public var completeDate:any DateFormatProtocol {
         return CompleteDate(withFormatter: formatter)

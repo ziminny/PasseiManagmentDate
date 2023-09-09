@@ -12,4 +12,5 @@ public enum DateFormmatEnum:String {
     case completeDate = "dd/MMM/yyyy"
     case weekdayPrefix = "EEE"
     case day = "d"
+    case hoursAndMinutes = "HH:mm"
 }
