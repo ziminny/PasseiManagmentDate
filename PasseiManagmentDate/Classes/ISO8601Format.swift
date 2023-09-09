@@ -25,7 +25,7 @@ public class ISO8601Format:DateFormatProtocol {
         return self.formatter.date(from: string)
     }
 
-    public func stringToString(withString string:String,changeReturnType toReturnType:DateFormmatEnum?) -> String? {
+    public func stringToString(withString string:String,changeReturnType toReturnType:DateFormmatEnum? = nil) -> String? {
         guard let date = formatter.date(from: string) else {
             return nil
         }

@@ -12,7 +12,7 @@ public protocol DateFormatProtocol {
     
     func dateToString(withDate date:Date) -> String?
     func stringToDate(withString string:String) -> Date?
-    func stringToString(withString string:String,changeReturnType toReturnType:DateFormmatEnum?) -> String?
+    func stringToString(withString string:String,changeReturnType toReturnType:DateFormmatEnum? = nil) -> String?
     init(withFormatter formatter:DateFormatter)
 
 }
