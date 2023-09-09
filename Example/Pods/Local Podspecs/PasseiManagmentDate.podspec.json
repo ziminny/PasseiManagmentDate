@@ -1,0 +1,22 @@
+{
+  "name": "PasseiManagmentDate",
+  "version": "0.1.0",
+  "summary": "A short description of PasseiManagmentDate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/95707007/PasseiManagmentDate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "95707007": "ziminny@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/95707007/PasseiManagmentDate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PasseiManagmentDate/Classes/**/*"
+}

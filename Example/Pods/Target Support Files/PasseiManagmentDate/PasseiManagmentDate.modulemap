@@ -1,0 +1,6 @@
+framework module PasseiManagmentDate {
+  umbrella header "PasseiManagmentDate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PasseiManagmentDate (0.1.0)
+
+DEPENDENCIES:
+  - PasseiManagmentDate (from `../`)
+
+EXTERNAL SOURCES:
+  PasseiManagmentDate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PasseiManagmentDate: 668393fdacf9e9d537c863a7d809842db239a1ca
+
+PODFILE CHECKSUM: 2b4a263d0b76b00c04092ee32d62e7aecb4e202b
+
+COCOAPODS: 1.12.1
