@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PasseiManagmentDate_Example' do
+  pod 'PasseiManagmentDate', :path => '../'
+
+  target 'PasseiManagmentDate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
